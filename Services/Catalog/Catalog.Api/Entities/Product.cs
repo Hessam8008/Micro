@@ -9,11 +9,11 @@ public class Product
     [BsonRepresentation(BsonType.ObjectId)]
     public int Id { get; set; }
 
-    [BsonElement("Name")] public string Name { get; set; }
+    [BsonElement("Name")] public string? Name { get; set; }
 
-    public string Catalog { get; set; }
+    public string? Catalog { get; set; }
 
-    public string Summary { get; set; }
+    public string? Summary { get; set; }
 
-    public string Description { get; set; }
+    public string? Description { get; set; }
 }
